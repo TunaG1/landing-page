@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+                <nav>
+                    <ul>
+                        <li class="nav-el"><a>Home</a></li>
+                        <li class="nav-el"><a>About</a></li>
+                        <li class="nav-el"><a>Work</a></li>
+                        <li class="nav-el"><a>Contact</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <section class="header-main">
+            <div id="welcome" class="welcome2">
+                <span class="header-titles active">Welcome</span>
+                <span class="header-titles">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, obcaecati!</span>
+            </div>
+            <div class="container-expandingcards">
+                <div class="cards-container">
+                    <div class="cards cards--1">
+        
+                    </div>
+                    <div class="cards cards--2">
+        
+                    </div>
+                    <div class="cards cards--3">
+        
+                    </div>
+                    <div class="cards cards--4">
+        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-overall">
+            <div class="features">
+                <div class="feature html">
+                    <div>
+                        <img src="./html5-logo-31813.png" alt="" class="featuresImg">
+                    </div>
+                    <p><i class="far fa-hand-point-down"></i>Started two years ago</p>
+                    <p><i class="far fa-hand-point-down"></i>No framework experience</p>
+                    <p><i class="far fa-hand-point-down"></i>Used in all projects</p>
+                </div>
+                <div class="feature css">
+                    <div>
+                        <img src="./css.png" alt="" class="featuresImg">
+                    </div>
+                    <p><i class="far fa-hand-point-down"></i>Started two years ago</p>
+                    <p><i class="far fa-hand-point-down"></i>Can work with Bootstrap, Tailwind</p>
+                    <p><i class="far fa-hand-point-down"></i>Used in all projects</p>
+                </div>
+                <div class="feature js">
+                    <div>
+                        <img src="./javascript-39400.png" alt="" class="featuresImg">
+                    </div>
+                    <p><i class="far fa-hand-point-down"></i>Started a year ago</p>
+                    <p><i class="far fa-hand-point-down"></i>React for all single-page applications</p>
+                    <p><i class="far fa-hand-point-down"></i>Used for web apps</p>
+                </div>
+            </div>
+            <div class="cv-feature">
+                <iframe src="./CCRA-Handbook.pdf" class="cvvv"></iframe>
+            </div>
+        </section>
+
+
+        <section class="work" id="work">
+            <div class="showcase ">
+                <div class="btn">
+                    <h3>Project Samara</h3>
+                    <button>Hold to Preview</button>
+                </div>
+                <img src="/samara.JPG" alt="">
+            </div>
+            <div class="showcase">
+                <img src="/calc.JPG" alt="">
+            </div>
+            <div class="showcase">
+                <img src="/forkify.JPG" alt="">
+            </div>
+            <div class="showcase">
+                <img src="/omni.JPG" alt="">
+            </div>
+        </section>
+
+
+
+        <form id="contact-form" method="post" action="contact-form-handler.php" class="form">
+            <h2>GET IN TOUCH</h2>
+            <p type="Name:">
+                <input name="name" type="text" class="form-control" placeholder="Write your name here.." required></input>
+            </p>
+            <p type="Email:">
+                <input name="email" type="email" class="form-control" placeholder="Let us know how to contact you back.." required></input>
+            </p>
+            <p type="Message:">
+                <textarea name="message" class="form-control text-area" cols="1" rows="6" required></textarea>
+
+                <!-- <input placeholder="What would you like to tell us.."></input> -->
+            </p>
+            <button type="submit" class="submit" value="SEND MESSAGE">Send Message</button>
+            <!-- <div>
+                <span class="fa fa-phone"></span>001 1023 567
+                <span class="fa fa-envelope-o"></span> contact@company.com
+            </div> -->
+        </form>
+
+
+        <!-- <section class="contact">
+            <form action="">
+                <label for="Name">Name</label>
+                <input type="text" placeholder="Type here">
+                <label for="Phone Number">Ph. Number</label>
+                <input type="number">
+                <label for="Email">Email</label>
+                <input type="email">
+            </form>
+        </section> -->
+        <footer>
+            <p>Made with 💘 by Muazzim Saleem
+                <span>&copy; 2021</span>
+            </p>
+        </footer>
+    </div>
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
